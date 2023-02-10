@@ -1,0 +1,160 @@
+/* .component-6 {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(171.06, 171.06, 171.06) 0%, rgb(80.75, 80.75, 80.75) 100%);
+  box-shadow: 0px 20px 28px -3px #00000066;
+  display: flex;
+  flex-direction: column;
+  left: 1181px;
+  min-height: 546px;
+  position: absolute;
+  top: 51px;
+  width: 412px;
+}
+
+.overlap-group2 {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(77.56, 77.56, 77.56) 0%, rgb(60.56, 60.56, 60.56) 100%);
+  border-radius: 45px 0px 45px 0px;
+  display: flex;
+  height: 66px;
+  min-width: 412px;
+  padding: 19px 0;
+}
+
+.cricket {
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 412px;
+}
+
+.overlap-group1 {
+  height: 330px;
+  margin-top: 21px;
+  position: relative;
+  width: 395px;
+}
+
+.soft-6 {
+  height: 314px;
+  left: 2px;
+  position: absolute;
+  top: 13px;
+  width: 393px;
+}
+
+.rectangle-32 {
+  background-color: var(--gravel);
+  border-radius: 45px 0px 45px 0px;
+  height: 330px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.vector-6 {
+  height: 9px;
+  margin-top: 20px;
+  width: 412px;
+}
+
+.place-2 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(169.37, 232.69, 88.23) 0%, rgb(118.67, 200.81, 13.39) 100%);
+  background-clip: text;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 28px;
+  text-align: center;
+  text-fill-color: transparent;
+  width: 412px;
+}
+ */
+ .baseball-cricket {
+  align-items: flex-start;
+  display: flex;
+  height: 546px;
+  left: 1215px;
+  min-width: 430px;
+  position: absolute;
+  top: 51px;
+}
+
+.overlap-group {
+  height: 546px;
+  position: relative;
+  width: 430px;
+}
+
+.rectangle-13 {
+  background: linear-gradient(180deg, rgb(171.06, 171.06, 171.06) 0%, rgb(80.75, 80.75, 80.75) 100%);
+  border-radius: 45px 0px 45px 0px;
+  height: 546px;
+  left: 18px;
+  position: absolute;
+  top: 0;
+  width: 412px;
+}
+
+.vector-3 {
+  height: 9px;
+  left: 18px;
+  position: absolute;
+  top: 436px;
+  width: 412px;
+}
+
+.rectangle-19 {
+  background: linear-gradient(180deg, rgb(77.56, 77.56, 77.56) 0%, rgb(60.56, 60.56, 60.56) 100%);
+  border-radius: 45px 0px 45px 0px;
+  height: 66px;
+  left: 18px;
+  position: absolute;
+  top: 0;
+  width: 412px;
+}
+
+.place-1 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(169.37, 232.69, 88.23) 0%, rgb(118.67, 200.81, 13.39) 100%);
+  background-clip: text;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-fill-color: transparent;
+  top: 474px;
+  width: 412px;
+}
+
+.baseball-1 {
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  width: 412px;
+}
+
+.soft-3 {
+  height: 375px;
+  left: 0;
+  position: absolute;
+  top: 66px;
+  width: 375px;
+}
+
+.rectangle-22 {
+  background-color: var(--gravel);
+  border-radius: 45px 0px 45px 0px;
+  height: 330px;
+  left: 18px;
+  position: absolute;
+  top: 92px;
+  width: 16px;
+}
