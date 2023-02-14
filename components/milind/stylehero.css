@@ -1,0 +1,37 @@
+.hero {
+    width: 100%;
+    height: 33em;
+    position: relative;
+}
+
+.herosectiongif{
+    width: 100%;
+    background-image: url("http://35.72.8.63:1234/vid.627362f4.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    position: absolute;
+}
+.herosectiongif h1{
+    position: relative;
+    left: 3%;
+    top: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.herosectiongif h2{
+    color: black;
+    background-color: #b8ff5d;
+    width: 45%;
+    position: relative;
+    left: 3%;
+    top: 50.5%;
+    font-size: 1.5rem;
+}
+@media (max-width: 500px){
+    .herosectiongif h2{
+        font-size: small;
+    }
+}
