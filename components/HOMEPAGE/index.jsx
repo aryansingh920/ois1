@@ -136,7 +136,7 @@ function HOMEPAGE(props) {
               marginLeft: "auto",
               marginRight: "auto",
               position: "relative",
-              top: '-590px'
+              top: '0px'
             }}
           >
             <Controller>
