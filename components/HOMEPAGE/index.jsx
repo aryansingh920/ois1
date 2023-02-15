@@ -6,6 +6,10 @@ import { Controller, Scene } from "react-scrollmagic";
 import Sequence from "../../Sequence";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useEffect, useRef, useState } from "react";
+import Ticker from '../../components/ticker/ticker.js';
+import Coursel from '../../components/coursel/coursel.js';
+import Nav from '../../components/milind/NavbarComp.js'
+import Hero from '../../components/milind/Herosection.js'
 
 function HOMEPAGE(props) {
   const {
@@ -95,69 +99,20 @@ function HOMEPAGE(props) {
     });
   }, []);
 
+  const ticker_data={
+    whatWeDo: "WHAT WE DO!",
+    ticker:
+      "https://anima-uploads.s3.amazonaws.com/projects/636e8b12dd63d44d26a503cc/releases/63d5473d0a7b05b1acab5225/img/ticker-1.gif"
+  };
   return (
     <div className="container-center-horizontal">
       <div className="homepage screen">
-        <div className="overlap-group4">
-          <div className="rectangle-33"></div>
-          <div className="rectangle-5"></div>
-          <img
-            className="screenshot-2023-01-23-at-832-1"
-            src={screenshot20230123At8321}
-            alt="Screenshot 2023-01-23 at 8.32 1"
-          />
-          <div className="place akshar-normal-black-19px ">
-            <p className="hover-underline-animation">{place}</p>
-          </div>
-          <div className="rectangle-6"></div>
-          <div className="the-facility akshar-normal-black-19px ">
-            <p className="hover-underline-animation">{theFacility1}</p>
-          </div>
-          <div className="memberships akshar-normal-black-19px ">
-            <a href="http://35.72.8.63:36475/">
-              <p className="hover-underline-animation">{memberships}</p>
-            </a>
-          </div>
-          <div className="batting-cages akshar-normal-black-19px ">
-            <p className="hover-underline-animation">{battingCages}</p>
-          </div>
-          <div className="programs-events akshar-normal-black-19px ">
-            <p className="hover-underline-animation">{programsEvents}</p>
-          </div>
-          <div className="contact-us akshar-normal-black-19px ">
-            <p className="hover-underline-animation">{contactUs1}</p>
-          </div>
-          <div className="ois coda-extra-bold-inchworm-46px">{ois}</div>
-          <img
-            className="iconsax-linearusersquare"
-            src="https://anima-uploads.s3.amazonaws.com/projects/636e8b12dd63d44d26a503cc/releases/63d5473d0a7b05b1acab5225/img/iconsax-linear-usersquare.svg"
-            alt="Iconsax/Linear/usersquare"
-          />
-          <a href="http://35.72.8.63:36475/">
-            <div className="eazy inter-bold-white-21px">SIGN UP</div>
-          </a>
-        </div>
-        <div className="overlap-group5">
-          <div className="rectangle-9"></div>
-          <div className="rectangle-8"></div>
-          <div className="rectangle-14"></div>
-          <img className="comp-1-1" src={require("./vid.gif")} alt="Comp 1 1" />
-          <div className="rectangle-7"></div>
-          <p className="biggest-performance-facility-in-the-ba">
-            <span className="darkergrotesque-bold-woodsmoke-46px">
-              {spanText1}
-            </span>
-            <span className="span-1">{spanText2}</span>
-            <span className="darkergrotesque-bold-woodsmoke-46px">
-              {spanText3}
-            </span>
-          </p>
-          <h1 className="title">{title}</h1>
-          <div className="what-we-do">{whatWeDo}</div>
-          <div className="rectangle-10"></div>
-          <img className="ticker-1" src={ticker1} alt="TICKER 1" />
-        </div>
+      <Nav />
+      <Hero />
+      <Ticker whatwedo={ticker_data.whatWeDo} ticker={ticker_data.ticker}/>
+
         <div className="overlap-group7">
+          
           <img
             className="pexels-vlad-chean-2694317-1 "
             src="https://anima-uploads.s3.amazonaws.com/projects/636e8b12dd63d44d26a503cc/releases/63d65a1bb1f985b51a114209/img/pexels-vlad-che-an-2694317-1-1.png"
@@ -181,6 +136,7 @@ function HOMEPAGE(props) {
               marginLeft: "auto",
               marginRight: "auto",
               position: "relative",
+              top: '-590px'
             }}
           >
             <Controller>
